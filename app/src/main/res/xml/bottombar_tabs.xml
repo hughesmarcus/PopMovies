@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_popular"
+        barColorWhenSelected="#5D4037"
+        title="Most Popular"
+        inActiveColor="#000000"
+        activeColor="#ffffff"/>
+    <tab
+        id="@+id/tab_rated"
+        barColorWhenSelected="#e6173a"
+        title="Top Rated"
+        inActiveColor="#000000"
+        activeColor="#ffffff"/>
+    <tab
+        id="@+id/tab_favorites"
+        barColorWhenSelected="#75df6f"
+        title="Favorites"
+        inActiveColor="#030303"
+        activeColor="#ffffff" />
+    <tab
+        id="@+id/tab_upcoming"
+        barColorWhenSelected="#e6a537"
+        title="Upcoming"
+        inActiveColor="#050505"
+        activeColor="#ffffff"/>
+</tabs>

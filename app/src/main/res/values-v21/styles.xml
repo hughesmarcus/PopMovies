@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <!--
   Copyright 2016.  Dmitry Malkovich
 
@@ -15,12 +14,19 @@
   limitations under the License.
 -->
 <resources>
-    <color name="colorPrimary">#009688</color>
-    <color name="colorPrimaryDark">#00796B</color>
-    <color name="colorAccent">#64FFDA</color>
-    <color name="empty_view_text_color">#BDBDBD</color>
-    <color name="text_color_for_movie_overview">@android:color/black</color>
-    <color name="text_color_for_review_content">@android:color/black</color>
-    <color name="red">#F44336</color>
-    <color name="watch_trailer">#0000f4</color>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="Button.Red" parent="Button">
+        <item name="android:colorButtonNormal">@color/red</item>
+    </style>
+
+    <style name="Button.ColorPrimary" parent="Button">
+        <item name="android:colorButtonNormal">@color/colorPrimary</item>
+    </style>
+
 </resources>

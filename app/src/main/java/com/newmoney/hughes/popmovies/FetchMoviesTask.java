@@ -8,7 +8,7 @@ import android.util.Log;
 
 
 import com.newmoney.hughes.popmovies.Models.Movie;
-import com.newmoney.hughes.popmovies.Models.MovieDatabaseService;
+import com.newmoney.hughes.popmovies.network.MovieDatabaseService;
 import com.newmoney.hughes.popmovies.Models.Movies;
 
 import java.io.IOException;

@@ -6,7 +6,7 @@ import android.os.AsyncTask;
 import android.util.Log;
 
 
-import com.newmoney.hughes.popmovies.Models.MovieDatabaseService;
+import com.newmoney.hughes.popmovies.network.MovieDatabaseService;
 import com.newmoney.hughes.popmovies.Models.Trailer;
 import com.newmoney.hughes.popmovies.Models.Trailers;
 

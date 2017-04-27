@@ -31,7 +31,7 @@
     <dimen name="detail_horizontal_margin">16dp</dimen>
     <dimen name="detail_vertical_padding">8dp</dimen>
     <dimen name="detail_horizontal_padding">16dp</dimen>
-    <integer name="grid_number_cols">2</integer>
+    <integer name="grid_number_cols">3</integer>
     <string name="url_for_downloading_poster">http://image.tmdb.org/t/p/w342</string>
     <string name="url_for_downloading_backdrop">http://image.tmdb.org/t/p/original</string>
     <dimen name="button_height">36dp</dimen>

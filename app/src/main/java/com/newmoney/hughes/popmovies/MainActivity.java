@@ -54,8 +54,6 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
 
     @Bind(R.id.movie_list)
     RecyclerView mRecyclerView;
-   // @Bind(R.id.toolbar)
-    //Toolbar mToolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -63,8 +61,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
         setContentView(R.layout.activity_movie_list);
         ButterKnife.bind(this);
 
-        //mToolbar.setTitle(R.string.title_movie_list);
-        //setSupportActionBar(mToolbar);
+
 
         String tag = RetainedFragment.class.getName();
         this.mRetainedFragment = (RetainedFragment) getSupportFragmentManager().findFragmentByTag(tag);
@@ -75,11 +72,11 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
 
         mRecyclerView.setLayoutManager(new GridLayoutManager(this, getResources()
                 .getInteger(R.integer.grid_number_cols)));
-        // To avoid "E/RecyclerView: No adapter attached; skipping layout"
+
         mAdapter = new MovieListAdapter(new ArrayList<Movie>(), this);
         mRecyclerView.setAdapter(mAdapter);
 
-        // For large-screen layouts (res/values-w900dp).
+
         mTwoPane = findViewById(R.id.movie_detail_container) != null;
 
         if (savedInstanceState != null) {
